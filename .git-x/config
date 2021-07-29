@@ -1,0 +1,18 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[submodule]
+	active = .
+[remote "origin"]
+	url = https://github.com/Viacheslav-ua/goit-js-hw-10-food-service.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[remote "upstream"]
+	url = https://github.com/goitacademy/parcel-project-template.git
+	fetch = +refs/heads/*:refs/remotes/upstream/*
