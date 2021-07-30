@@ -1,0 +1,1 @@
+import msg from './js/message.js';
