@@ -1,1 +1,1 @@
-import msg from './js/message.js';
+import{ msg } from './js/message.js';
