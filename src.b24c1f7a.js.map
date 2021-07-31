@@ -1,1 +1,0 @@
-{"version":3,"sources":["js/message.js","index.js"],"names":["msg","console","log"],"mappings":";AAAO,aAAA,OAAA,eAAA,QAAA,aAAA,CAAA,OAAA,IAAA,QAAA,SAAA,EAAA,MAAMA,EAAMC,QAAQC,IAAI,gBAAxB,QAAA,IAAA;;ACAP,aAAA,IAAA,EAAA,QAAA","file":"src.b24c1f7a.js","sourceRoot":"..\\src","sourcesContent":["export const msg = console.log('hello world!');","import{ msg } from './js/message.js';"]}
