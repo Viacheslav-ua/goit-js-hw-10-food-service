@@ -1,1 +1,0 @@
-export const msg = console.log('hello world!');
