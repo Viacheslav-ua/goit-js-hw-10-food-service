@@ -3,7 +3,8 @@ import arrData from './menu.json';
 // const arrData = require('./menu.json');
 
 // Рендеринг
-const markup = arrData.map(item => templateFunction(item)).join('');
+// const markup = arrData.map(item => templateFunction(item)).join('');
+const markup = arrData.map(templateFunction).join('');
 
 const containerEl = document.querySelector('.js-menu');
 containerEl.insertAdjacentHTML('afterbegin', markup);
